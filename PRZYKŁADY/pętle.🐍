@@ -1,0 +1,9 @@
+#!/usr/bin/env zaskroniec
+
+drukuj('x  ->  x²')
+drukuj('---------')
+
+dla i spośród [1, 2, 3, 4, 5]:
+    drukuj(i, ' -> ', i ** 2)
+
+odpocznij
