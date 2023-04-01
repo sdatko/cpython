@@ -19,9 +19,9 @@ static state states_0[3] = {
     {1, arcs_0_2},
 };
 static const arc arcs_1_0[3] = {
-    {44, 1},
+    {67, 1},
     {2, 0},
-    {45, 0},
+    {68, 0},
 };
 static const arc arcs_1_1[1] = {
     {0, 1},
@@ -31,10 +31,10 @@ static state states_1[2] = {
     {1, arcs_1_1},
 };
 static const arc arcs_2_0[1] = {
-    {47, 1},
+    {70, 1},
 };
 static const arc arcs_2_1[2] = {
-    {44, 2},
+    {67, 2},
     {2, 1},
 };
 static const arc arcs_2_2[1] = {
@@ -49,15 +49,15 @@ static const arc arcs_3_0[1] = {
     {10, 1},
 };
 static const arc arcs_3_1[1] = {
-    {49, 2},
+    {72, 2},
 };
 static const arc arcs_3_2[2] = {
     {5, 3},
     {2, 4},
 };
 static const arc arcs_3_3[2] = {
-    {50, 5},
-    {51, 6},
+    {73, 5},
+    {74, 6},
 };
 static const arc arcs_3_4[1] = {
     {0, 4},
@@ -66,7 +66,7 @@ static const arc arcs_3_5[1] = {
     {2, 4},
 };
 static const arc arcs_3_6[1] = {
-    {50, 5},
+    {73, 5},
 };
 static state states_3[7] = {
     {1, arcs_3_0},
@@ -78,10 +78,10 @@ static state states_3[7] = {
     {1, arcs_3_6},
 };
 static const arc arcs_4_0[1] = {
-    {48, 1},
+    {71, 1},
 };
 static const arc arcs_4_1[2] = {
-    {48, 1},
+    {71, 1},
     {0, 1},
 };
 static state states_4[2] = {
@@ -89,12 +89,12 @@ static state states_4[2] = {
     {2, arcs_4_1},
 };
 static const arc arcs_5_0[1] = {
-    {52, 1},
+    {75, 1},
 };
 static const arc arcs_5_1[3] = {
-    {54, 2},
-    {55, 2},
-    {56, 2},
+    {77, 2},
+    {78, 2},
+    {79, 2},
 };
 static const arc arcs_5_2[1] = {
     {0, 2},
@@ -105,10 +105,10 @@ static state states_5[3] = {
     {1, arcs_5_2},
 };
 static const arc arcs_6_0[1] = {
-    {38, 1},
+    {61, 1},
 };
 static const arc arcs_6_1[1] = {
-    {56, 2},
+    {79, 2},
 };
 static const arc arcs_6_2[1] = {
     {0, 2},
@@ -119,30 +119,30 @@ static state states_6[3] = {
     {1, arcs_6_2},
 };
 static const arc arcs_7_0[1] = {
-    {19, 1},
+    {23, 1},
 };
 static const arc arcs_7_1[1] = {
-    {40, 2},
+    {63, 2},
 };
 static const arc arcs_7_2[1] = {
-    {57, 3},
+    {80, 3},
 };
 static const arc arcs_7_3[2] = {
-    {58, 4},
-    {59, 5},
+    {81, 4},
+    {82, 5},
 };
 static const arc arcs_7_4[1] = {
-    {60, 6},
+    {83, 6},
 };
 static const arc arcs_7_5[2] = {
-    {61, 7},
-    {62, 8},
+    {84, 7},
+    {85, 8},
 };
 static const arc arcs_7_6[1] = {
-    {59, 5},
+    {82, 5},
 };
 static const arc arcs_7_7[1] = {
-    {62, 8},
+    {85, 8},
 };
 static const arc arcs_7_8[1] = {
     {0, 8},
@@ -162,14 +162,14 @@ static const arc arcs_8_0[1] = {
     {5, 1},
 };
 static const arc arcs_8_1[2] = {
-    {50, 2},
-    {63, 3},
+    {73, 2},
+    {86, 3},
 };
 static const arc arcs_8_2[1] = {
     {0, 2},
 };
 static const arc arcs_8_3[1] = {
-    {50, 2},
+    {73, 2},
 };
 static state states_8[4] = {
     {1, arcs_8_0},
@@ -179,217 +179,217 @@ static state states_8[4] = {
 };
 static const arc arcs_9_0[3] = {
     {6, 1},
-    {64, 2},
-    {65, 3},
+    {87, 2},
+    {88, 3},
 };
 static const arc arcs_9_1[4] = {
-    {66, 4},
-    {61, 5},
-    {65, 6},
+    {89, 4},
+    {84, 5},
+    {88, 6},
     {0, 1},
 };
 static const arc arcs_9_2[1] = {
-    {65, 7},
+    {88, 7},
 };
 static const arc arcs_9_3[4] = {
-    {66, 8},
-    {67, 9},
-    {61, 5},
+    {89, 8},
+    {90, 9},
+    {84, 5},
     {0, 3},
 };
 static const arc arcs_9_4[4] = {
-    {64, 2},
-    {61, 10},
-    {65, 11},
+    {87, 2},
+    {84, 10},
+    {88, 11},
     {0, 4},
 };
 static const arc arcs_9_5[1] = {
     {0, 5},
 };
 static const arc arcs_9_6[3] = {
-    {66, 4},
-    {61, 5},
+    {89, 4},
+    {84, 5},
     {0, 6},
 };
 static const arc arcs_9_7[3] = {
-    {66, 12},
-    {61, 5},
+    {89, 12},
+    {84, 5},
     {0, 7},
 };
 static const arc arcs_9_8[6] = {
     {6, 13},
-    {64, 2},
-    {68, 14},
-    {61, 15},
-    {65, 3},
+    {87, 2},
+    {91, 14},
+    {84, 15},
+    {88, 3},
     {0, 8},
 };
 static const arc arcs_9_9[1] = {
-    {60, 16},
+    {83, 16},
 };
 static const arc arcs_9_10[3] = {
-    {64, 2},
-    {65, 11},
+    {87, 2},
+    {88, 11},
     {0, 10},
 };
 static const arc arcs_9_11[4] = {
-    {66, 4},
-    {67, 17},
-    {61, 5},
+    {89, 4},
+    {90, 17},
+    {84, 5},
     {0, 11},
 };
 static const arc arcs_9_12[2] = {
-    {61, 5},
+    {84, 5},
     {0, 12},
 };
 static const arc arcs_9_13[4] = {
-    {66, 18},
-    {61, 5},
-    {65, 19},
+    {89, 18},
+    {84, 5},
+    {88, 19},
     {0, 13},
 };
 static const arc arcs_9_14[2] = {
-    {66, 20},
+    {89, 20},
     {0, 14},
 };
 static const arc arcs_9_15[5] = {
     {6, 13},
-    {64, 2},
-    {68, 14},
-    {65, 3},
+    {87, 2},
+    {91, 14},
+    {88, 3},
     {0, 15},
 };
 static const arc arcs_9_16[3] = {
-    {66, 8},
-    {61, 5},
+    {89, 8},
+    {84, 5},
     {0, 16},
 };
 static const arc arcs_9_17[1] = {
-    {60, 6},
+    {83, 6},
 };
 static const arc arcs_9_18[4] = {
-    {64, 2},
-    {61, 21},
-    {65, 22},
+    {87, 2},
+    {84, 21},
+    {88, 22},
     {0, 18},
 };
 static const arc arcs_9_19[3] = {
-    {66, 18},
-    {61, 5},
+    {89, 18},
+    {84, 5},
     {0, 19},
 };
 static const arc arcs_9_20[5] = {
     {6, 23},
-    {64, 2},
-    {61, 24},
-    {65, 25},
+    {87, 2},
+    {84, 24},
+    {88, 25},
     {0, 20},
 };
 static const arc arcs_9_21[3] = {
-    {64, 2},
-    {65, 22},
+    {87, 2},
+    {88, 22},
     {0, 21},
 };
 static const arc arcs_9_22[4] = {
-    {66, 18},
-    {67, 26},
-    {61, 5},
+    {89, 18},
+    {90, 26},
+    {84, 5},
     {0, 22},
 };
 static const arc arcs_9_23[4] = {
-    {66, 27},
-    {61, 5},
-    {65, 28},
+    {89, 27},
+    {84, 5},
+    {88, 28},
     {0, 23},
 };
 static const arc arcs_9_24[1] = {
-    {65, 25},
+    {88, 25},
 };
 static const arc arcs_9_25[4] = {
-    {66, 29},
-    {67, 30},
-    {61, 5},
+    {89, 29},
+    {90, 30},
+    {84, 5},
     {0, 25},
 };
 static const arc arcs_9_26[1] = {
-    {60, 19},
+    {83, 19},
 };
 static const arc arcs_9_27[4] = {
-    {64, 2},
-    {61, 31},
-    {65, 32},
+    {87, 2},
+    {84, 31},
+    {88, 32},
     {0, 27},
 };
 static const arc arcs_9_28[3] = {
-    {66, 27},
-    {61, 5},
+    {89, 27},
+    {84, 5},
     {0, 28},
 };
 static const arc arcs_9_29[5] = {
     {6, 33},
-    {64, 2},
-    {61, 34},
-    {65, 25},
+    {87, 2},
+    {84, 34},
+    {88, 25},
     {0, 29},
 };
 static const arc arcs_9_30[1] = {
-    {60, 35},
+    {83, 35},
 };
 static const arc arcs_9_31[3] = {
-    {64, 2},
-    {65, 32},
+    {87, 2},
+    {88, 32},
     {0, 31},
 };
 static const arc arcs_9_32[4] = {
-    {66, 27},
-    {67, 36},
-    {61, 5},
+    {89, 27},
+    {90, 36},
+    {84, 5},
     {0, 32},
 };
 static const arc arcs_9_33[4] = {
-    {66, 37},
-    {61, 5},
-    {65, 38},
+    {89, 37},
+    {84, 5},
+    {88, 38},
     {0, 33},
 };
 static const arc arcs_9_34[4] = {
     {6, 33},
-    {64, 2},
-    {65, 25},
+    {87, 2},
+    {88, 25},
     {0, 34},
 };
 static const arc arcs_9_35[3] = {
-    {66, 29},
-    {61, 5},
+    {89, 29},
+    {84, 5},
     {0, 35},
 };
 static const arc arcs_9_36[1] = {
-    {60, 28},
+    {83, 28},
 };
 static const arc arcs_9_37[4] = {
-    {64, 2},
-    {61, 39},
-    {65, 40},
+    {87, 2},
+    {84, 39},
+    {88, 40},
     {0, 37},
 };
 static const arc arcs_9_38[3] = {
-    {66, 37},
-    {61, 5},
+    {89, 37},
+    {84, 5},
     {0, 38},
 };
 static const arc arcs_9_39[3] = {
-    {64, 2},
-    {65, 40},
+    {87, 2},
+    {88, 40},
     {0, 39},
 };
 static const arc arcs_9_40[4] = {
-    {66, 37},
-    {67, 41},
-    {61, 5},
+    {89, 37},
+    {90, 41},
+    {84, 5},
     {0, 40},
 };
 static const arc arcs_9_41[1] = {
-    {60, 38},
+    {83, 38},
 };
 static state states_9[42] = {
     {3, arcs_9_0},
@@ -436,14 +436,14 @@ static state states_9[42] = {
     {1, arcs_9_41},
 };
 static const arc arcs_10_0[1] = {
-    {40, 1},
+    {63, 1},
 };
 static const arc arcs_10_1[2] = {
-    {59, 2},
+    {82, 2},
     {0, 1},
 };
 static const arc arcs_10_2[1] = {
-    {60, 3},
+    {83, 3},
 };
 static const arc arcs_10_3[1] = {
     {0, 3},
@@ -456,153 +456,153 @@ static state states_10[4] = {
 };
 static const arc arcs_11_0[3] = {
     {6, 1},
-    {64, 2},
-    {70, 3},
+    {87, 2},
+    {93, 3},
 };
 static const arc arcs_11_1[3] = {
-    {66, 4},
-    {70, 5},
+    {89, 4},
+    {93, 5},
     {0, 1},
 };
 static const arc arcs_11_2[1] = {
-    {70, 6},
+    {93, 6},
 };
 static const arc arcs_11_3[3] = {
-    {66, 7},
-    {67, 8},
+    {89, 7},
+    {90, 8},
     {0, 3},
 };
 static const arc arcs_11_4[3] = {
-    {64, 2},
-    {70, 9},
+    {87, 2},
+    {93, 9},
     {0, 4},
 };
 static const arc arcs_11_5[2] = {
-    {66, 4},
+    {89, 4},
     {0, 5},
 };
 static const arc arcs_11_6[2] = {
-    {66, 10},
+    {89, 10},
     {0, 6},
 };
 static const arc arcs_11_7[5] = {
     {6, 11},
-    {64, 2},
-    {68, 12},
-    {70, 3},
+    {87, 2},
+    {91, 12},
+    {93, 3},
     {0, 7},
 };
 static const arc arcs_11_8[1] = {
-    {60, 13},
+    {83, 13},
 };
 static const arc arcs_11_9[3] = {
-    {66, 4},
-    {67, 14},
+    {89, 4},
+    {90, 14},
     {0, 9},
 };
 static const arc arcs_11_10[1] = {
     {0, 10},
 };
 static const arc arcs_11_11[3] = {
-    {66, 15},
-    {70, 16},
+    {89, 15},
+    {93, 16},
     {0, 11},
 };
 static const arc arcs_11_12[2] = {
-    {66, 17},
+    {89, 17},
     {0, 12},
 };
 static const arc arcs_11_13[2] = {
-    {66, 7},
+    {89, 7},
     {0, 13},
 };
 static const arc arcs_11_14[1] = {
-    {60, 5},
+    {83, 5},
 };
 static const arc arcs_11_15[3] = {
-    {64, 2},
-    {70, 18},
+    {87, 2},
+    {93, 18},
     {0, 15},
 };
 static const arc arcs_11_16[2] = {
-    {66, 15},
+    {89, 15},
     {0, 16},
 };
 static const arc arcs_11_17[4] = {
     {6, 19},
-    {64, 2},
-    {70, 20},
+    {87, 2},
+    {93, 20},
     {0, 17},
 };
 static const arc arcs_11_18[3] = {
-    {66, 15},
-    {67, 21},
+    {89, 15},
+    {90, 21},
     {0, 18},
 };
 static const arc arcs_11_19[3] = {
-    {66, 22},
-    {70, 23},
+    {89, 22},
+    {93, 23},
     {0, 19},
 };
 static const arc arcs_11_20[3] = {
-    {66, 24},
-    {67, 25},
+    {89, 24},
+    {90, 25},
     {0, 20},
 };
 static const arc arcs_11_21[1] = {
-    {60, 16},
+    {83, 16},
 };
 static const arc arcs_11_22[3] = {
-    {64, 2},
-    {70, 26},
+    {87, 2},
+    {93, 26},
     {0, 22},
 };
 static const arc arcs_11_23[2] = {
-    {66, 22},
+    {89, 22},
     {0, 23},
 };
 static const arc arcs_11_24[4] = {
     {6, 27},
-    {64, 2},
-    {70, 20},
+    {87, 2},
+    {93, 20},
     {0, 24},
 };
 static const arc arcs_11_25[1] = {
-    {60, 28},
+    {83, 28},
 };
 static const arc arcs_11_26[3] = {
-    {66, 22},
-    {67, 29},
+    {89, 22},
+    {90, 29},
     {0, 26},
 };
 static const arc arcs_11_27[3] = {
-    {66, 30},
-    {70, 31},
+    {89, 30},
+    {93, 31},
     {0, 27},
 };
 static const arc arcs_11_28[2] = {
-    {66, 24},
+    {89, 24},
     {0, 28},
 };
 static const arc arcs_11_29[1] = {
-    {60, 23},
+    {83, 23},
 };
 static const arc arcs_11_30[3] = {
-    {64, 2},
-    {70, 32},
+    {87, 2},
+    {93, 32},
     {0, 30},
 };
 static const arc arcs_11_31[2] = {
-    {66, 30},
+    {89, 30},
     {0, 31},
 };
 static const arc arcs_11_32[3] = {
-    {66, 30},
-    {67, 33},
+    {89, 30},
+    {90, 33},
     {0, 32},
 };
 static const arc arcs_11_33[1] = {
-    {60, 31},
+    {83, 31},
 };
 static state states_11[34] = {
     {3, arcs_11_0},
@@ -641,7 +641,7 @@ static state states_11[34] = {
     {1, arcs_11_33},
 };
 static const arc arcs_12_0[1] = {
-    {40, 1},
+    {63, 1},
 };
 static const arc arcs_12_1[1] = {
     {0, 1},
@@ -662,15 +662,15 @@ static state states_13[2] = {
     {1, arcs_13_1},
 };
 static const arc arcs_14_0[1] = {
-    {71, 1},
+    {94, 1},
 };
 static const arc arcs_14_1[2] = {
-    {72, 2},
+    {95, 2},
     {2, 3},
 };
 static const arc arcs_14_2[2] = {
     {2, 3},
-    {71, 1},
+    {94, 1},
 };
 static const arc arcs_14_3[1] = {
     {0, 3},
@@ -682,14 +682,14 @@ static state states_14[4] = {
     {1, arcs_14_3},
 };
 static const arc arcs_15_0[8] = {
-    {73, 1},
-    {74, 1},
-    {75, 1},
-    {76, 1},
-    {77, 1},
-    {78, 1},
-    {79, 1},
-    {80, 1},
+    {96, 1},
+    {97, 1},
+    {98, 1},
+    {99, 1},
+    {100, 1},
+    {101, 1},
+    {102, 1},
+    {103, 1},
 };
 static const arc arcs_15_1[1] = {
     {0, 1},
@@ -699,28 +699,28 @@ static state states_15[2] = {
     {1, arcs_15_1},
 };
 static const arc arcs_16_0[1] = {
-    {81, 1},
+    {104, 1},
 };
 static const arc arcs_16_1[4] = {
-    {67, 2},
-    {82, 3},
-    {83, 4},
+    {90, 2},
+    {105, 3},
+    {106, 4},
     {0, 1},
 };
 static const arc arcs_16_2[2] = {
-    {81, 5},
-    {84, 5},
+    {104, 5},
+    {107, 5},
 };
 static const arc arcs_16_3[1] = {
     {0, 3},
 };
 static const arc arcs_16_4[2] = {
-    {47, 3},
-    {84, 3},
+    {70, 3},
+    {107, 3},
 };
 static const arc arcs_16_5[3] = {
-    {67, 2},
-    {61, 3},
+    {90, 2},
+    {84, 3},
     {0, 5},
 };
 static state states_16[6] = {
@@ -732,18 +732,18 @@ static state states_16[6] = {
     {3, arcs_16_5},
 };
 static const arc arcs_17_0[1] = {
-    {59, 1},
+    {82, 1},
 };
 static const arc arcs_17_1[1] = {
-    {60, 2},
+    {83, 2},
 };
 static const arc arcs_17_2[2] = {
-    {67, 3},
+    {90, 3},
     {0, 2},
 };
 static const arc arcs_17_3[2] = {
-    {81, 4},
-    {84, 4},
+    {104, 4},
+    {107, 4},
 };
 static const arc arcs_17_4[1] = {
     {0, 4},
@@ -756,16 +756,16 @@ static state states_17[5] = {
     {1, arcs_17_4},
 };
 static const arc arcs_18_0[2] = {
-    {85, 1},
-    {60, 1},
+    {108, 1},
+    {83, 1},
 };
 static const arc arcs_18_1[2] = {
-    {66, 2},
+    {89, 2},
     {0, 1},
 };
 static const arc arcs_18_2[3] = {
-    {85, 1},
-    {60, 1},
+    {108, 1},
+    {83, 1},
     {0, 2},
 };
 static state states_18[3] = {
@@ -774,19 +774,19 @@ static state states_18[3] = {
     {3, arcs_18_2},
 };
 static const arc arcs_19_0[13] = {
-    {86, 1},
-    {87, 1},
-    {88, 1},
-    {89, 1},
-    {90, 1},
-    {91, 1},
-    {92, 1},
-    {93, 1},
-    {94, 1},
-    {95, 1},
-    {96, 1},
-    {97, 1},
-    {98, 1},
+    {109, 1},
+    {110, 1},
+    {111, 1},
+    {112, 1},
+    {113, 1},
+    {114, 1},
+    {115, 1},
+    {116, 1},
+    {117, 1},
+    {118, 1},
+    {119, 1},
+    {120, 1},
+    {121, 1},
 };
 static const arc arcs_19_1[1] = {
     {0, 1},
@@ -795,36 +795,38 @@ static state states_19[2] = {
     {13, arcs_19_0},
     {1, arcs_19_1},
 };
-static const arc arcs_20_0[1] = {
-    {20, 1},
+static const arc arcs_20_0[2] = {
+    {24, 1},
+    {49, 1},
 };
 static const arc arcs_20_1[1] = {
-    {99, 2},
+    {122, 2},
 };
 static const arc arcs_20_2[1] = {
     {0, 2},
 };
 static state states_20[3] = {
-    {1, arcs_20_0},
+    {2, arcs_20_0},
     {1, arcs_20_1},
     {1, arcs_20_2},
 };
-static const arc arcs_21_0[1] = {
-    {29, 1},
+static const arc arcs_21_0[2] = {
+    {42, 1},
+    {43, 1},
 };
 static const arc arcs_21_1[1] = {
     {0, 1},
 };
 static state states_21[2] = {
-    {1, arcs_21_0},
+    {2, arcs_21_0},
     {1, arcs_21_1},
 };
 static const arc arcs_22_0[5] = {
-    {100, 1},
-    {101, 1},
-    {102, 1},
-    {103, 1},
-    {104, 1},
+    {123, 1},
+    {124, 1},
+    {125, 1},
+    {126, 1},
+    {127, 1},
 };
 static const arc arcs_22_1[1] = {
     {0, 1},
@@ -833,43 +835,46 @@ static state states_22[2] = {
     {5, arcs_22_0},
     {1, arcs_22_1},
 };
-static const arc arcs_23_0[1] = {
-    {16, 1},
+static const arc arcs_23_0[2] = {
+    {20, 1},
+    {44, 1},
 };
 static const arc arcs_23_1[1] = {
     {0, 1},
 };
 static state states_23[2] = {
-    {1, arcs_23_0},
+    {2, arcs_23_0},
     {1, arcs_23_1},
 };
-static const arc arcs_24_0[1] = {
-    {18, 1},
+static const arc arcs_24_0[2] = {
+    {22, 1},
+    {34, 1},
 };
 static const arc arcs_24_1[1] = {
     {0, 1},
 };
 static state states_24[2] = {
-    {1, arcs_24_0},
+    {2, arcs_24_0},
     {1, arcs_24_1},
 };
-static const arc arcs_25_0[1] = {
-    {31, 1},
+static const arc arcs_25_0[2] = {
+    {46, 1},
+    {57, 1},
 };
 static const arc arcs_25_1[2] = {
-    {81, 2},
+    {104, 2},
     {0, 1},
 };
 static const arc arcs_25_2[1] = {
     {0, 2},
 };
 static state states_25[3] = {
-    {1, arcs_25_0},
+    {2, arcs_25_0},
     {2, arcs_25_1},
     {1, arcs_25_2},
 };
 static const arc arcs_26_0[1] = {
-    {84, 1},
+    {107, 1},
 };
 static const arc arcs_26_1[1] = {
     {0, 1},
@@ -878,33 +883,35 @@ static state states_26[2] = {
     {1, arcs_26_0},
     {1, arcs_26_1},
 };
-static const arc arcs_27_0[1] = {
-    {30, 1},
+static const arc arcs_27_0[2] = {
+    {45, 1},
+    {53, 1},
 };
 static const arc arcs_27_1[2] = {
-    {60, 2},
+    {83, 2},
     {0, 1},
 };
-static const arc arcs_27_2[2] = {
-    {22, 3},
+static const arc arcs_27_2[3] = {
+    {28, 3},
+    {41, 3},
     {0, 2},
 };
 static const arc arcs_27_3[1] = {
-    {60, 4},
+    {83, 4},
 };
 static const arc arcs_27_4[1] = {
     {0, 4},
 };
 static state states_27[5] = {
-    {1, arcs_27_0},
+    {2, arcs_27_0},
     {2, arcs_27_1},
-    {2, arcs_27_2},
+    {3, arcs_27_2},
     {1, arcs_27_3},
     {1, arcs_27_4},
 };
 static const arc arcs_28_0[2] = {
-    {105, 1},
-    {106, 1},
+    {128, 1},
+    {129, 1},
 };
 static const arc arcs_28_1[1] = {
     {0, 1},
@@ -913,108 +920,114 @@ static state states_28[2] = {
     {2, arcs_28_0},
     {1, arcs_28_1},
 };
-static const arc arcs_29_0[1] = {
-    {25, 1},
+static const arc arcs_29_0[2] = {
+    {31, 1},
+    {56, 1},
 };
 static const arc arcs_29_1[1] = {
-    {107, 2},
+    {130, 2},
 };
 static const arc arcs_29_2[1] = {
     {0, 2},
 };
 static state states_29[3] = {
-    {1, arcs_29_0},
+    {2, arcs_29_0},
     {1, arcs_29_1},
     {1, arcs_29_2},
 };
-static const arc arcs_30_0[1] = {
-    {22, 1},
+static const arc arcs_30_0[2] = {
+    {28, 1},
+    {41, 1},
 };
 static const arc arcs_30_1[3] = {
-    {108, 2},
+    {131, 2},
     {9, 2},
-    {49, 3},
+    {72, 3},
 };
-static const arc arcs_30_2[4] = {
-    {108, 2},
+static const arc arcs_30_2[5] = {
+    {131, 2},
     {9, 2},
-    {25, 4},
-    {49, 3},
+    {31, 4},
+    {56, 4},
+    {72, 3},
 };
-static const arc arcs_30_3[1] = {
-    {25, 4},
+static const arc arcs_30_3[2] = {
+    {31, 4},
+    {56, 4},
 };
 static const arc arcs_30_4[3] = {
     {5, 5},
     {6, 6},
-    {109, 6},
+    {132, 6},
 };
 static const arc arcs_30_5[1] = {
-    {109, 7},
+    {132, 7},
 };
 static const arc arcs_30_6[1] = {
     {0, 6},
 };
 static const arc arcs_30_7[1] = {
-    {50, 6},
+    {73, 6},
 };
 static state states_30[8] = {
-    {1, arcs_30_0},
+    {2, arcs_30_0},
     {3, arcs_30_1},
-    {4, arcs_30_2},
-    {1, arcs_30_3},
+    {5, arcs_30_2},
+    {2, arcs_30_3},
     {3, arcs_30_4},
     {1, arcs_30_5},
     {1, arcs_30_6},
     {1, arcs_30_7},
 };
 static const arc arcs_31_0[1] = {
-    {40, 1},
+    {63, 1},
 };
-static const arc arcs_31_1[2] = {
-    {111, 2},
+static const arc arcs_31_1[3] = {
+    {134, 2},
+    {135, 2},
     {0, 1},
 };
 static const arc arcs_31_2[1] = {
-    {40, 3},
+    {63, 3},
 };
 static const arc arcs_31_3[1] = {
     {0, 3},
 };
 static state states_31[4] = {
     {1, arcs_31_0},
-    {2, arcs_31_1},
+    {3, arcs_31_1},
     {1, arcs_31_2},
     {1, arcs_31_3},
 };
 static const arc arcs_32_0[1] = {
-    {49, 1},
+    {72, 1},
 };
-static const arc arcs_32_1[2] = {
-    {111, 2},
+static const arc arcs_32_1[3] = {
+    {134, 2},
+    {135, 2},
     {0, 1},
 };
 static const arc arcs_32_2[1] = {
-    {40, 3},
+    {63, 3},
 };
 static const arc arcs_32_3[1] = {
     {0, 3},
 };
 static state states_32[4] = {
     {1, arcs_32_0},
-    {2, arcs_32_1},
+    {3, arcs_32_1},
     {1, arcs_32_2},
     {1, arcs_32_3},
 };
 static const arc arcs_33_0[1] = {
-    {110, 1},
+    {133, 1},
 };
 static const arc arcs_33_1[2] = {
-    {66, 2},
+    {89, 2},
     {0, 1},
 };
 static const arc arcs_33_2[2] = {
-    {110, 1},
+    {133, 1},
     {0, 2},
 };
 static state states_33[3] = {
@@ -1023,10 +1036,10 @@ static state states_33[3] = {
     {2, arcs_33_2},
 };
 static const arc arcs_34_0[1] = {
-    {112, 1},
+    {136, 1},
 };
 static const arc arcs_34_1[2] = {
-    {66, 0},
+    {89, 0},
     {0, 1},
 };
 static state states_34[2] = {
@@ -1034,79 +1047,82 @@ static state states_34[2] = {
     {2, arcs_34_1},
 };
 static const arc arcs_35_0[1] = {
-    {40, 1},
+    {63, 1},
 };
 static const arc arcs_35_1[2] = {
-    {108, 0},
+    {131, 0},
     {0, 1},
 };
 static state states_35[2] = {
     {1, arcs_35_0},
     {2, arcs_35_1},
 };
-static const arc arcs_36_0[1] = {
-    {23, 1},
+static const arc arcs_36_0[2] = {
+    {29, 1},
+    {60, 1},
 };
 static const arc arcs_36_1[1] = {
-    {40, 2},
+    {63, 2},
 };
 static const arc arcs_36_2[2] = {
-    {66, 1},
+    {89, 1},
     {0, 2},
 };
 static state states_36[3] = {
-    {1, arcs_36_0},
+    {2, arcs_36_0},
     {1, arcs_36_1},
     {2, arcs_36_2},
 };
-static const arc arcs_37_0[1] = {
-    {27, 1},
+static const arc arcs_37_0[2] = {
+    {38, 1},
+    {39, 1},
 };
 static const arc arcs_37_1[1] = {
-    {40, 2},
+    {63, 2},
 };
 static const arc arcs_37_2[2] = {
-    {66, 1},
+    {89, 1},
     {0, 2},
 };
 static state states_37[3] = {
-    {1, arcs_37_0},
+    {2, arcs_37_0},
     {1, arcs_37_1},
     {2, arcs_37_2},
 };
-static const arc arcs_38_0[1] = {
-    {15, 1},
+static const arc arcs_38_0[2] = {
+    {19, 1},
+    {55, 1},
 };
 static const arc arcs_38_1[1] = {
-    {60, 2},
+    {83, 2},
 };
 static const arc arcs_38_2[2] = {
-    {66, 3},
+    {89, 3},
     {0, 2},
 };
 static const arc arcs_38_3[1] = {
-    {60, 4},
+    {83, 4},
 };
 static const arc arcs_38_4[1] = {
     {0, 4},
 };
 static state states_38[5] = {
-    {1, arcs_38_0},
+    {2, arcs_38_0},
     {1, arcs_38_1},
     {2, arcs_38_2},
     {1, arcs_38_3},
     {1, arcs_38_4},
 };
 static const arc arcs_39_0[9] = {
-    {113, 1},
-    {55, 1},
-    {53, 1},
-    {114, 1},
-    {56, 1},
-    {115, 1},
-    {116, 1},
-    {117, 1},
-    {118, 1},
+    {137, 1},
+    {78, 1},
+    {76, 1},
+    {138, 1},
+    {79, 1},
+    {139, 1},
+    {140, 1},
+    {141, 1},
+    {142, 1},
 };
 static const arc arcs_39_1[1] = {
     {0, 1},
@@ -1116,12 +1132,12 @@ static state states_39[2] = {
     {1, arcs_39_1},
 };
 static const arc arcs_40_0[1] = {
-    {38, 1},
+    {61, 1},
 };
 static const arc arcs_40_1[3] = {
-    {114, 2},
-    {56, 2},
-    {118, 2},
+    {138, 2},
+    {79, 2},
+    {142, 2},
 };
 static const arc arcs_40_2[1] = {
     {0, 2},
@@ -1131,206 +1147,220 @@ static state states_40[3] = {
     {3, arcs_40_1},
     {1, arcs_40_2},
 };
-static const arc arcs_41_0[1] = {
-    {24, 1},
+static const arc arcs_41_0[2] = {
+    {30, 1},
+    {32, 1},
 };
 static const arc arcs_41_1[1] = {
-    {119, 2},
+    {143, 2},
 };
 static const arc arcs_41_2[1] = {
-    {59, 3},
+    {82, 3},
 };
 static const arc arcs_41_3[1] = {
-    {120, 4},
+    {144, 4},
 };
-static const arc arcs_41_4[3] = {
-    {121, 1},
-    {122, 5},
+static const arc arcs_41_4[5] = {
+    {145, 1},
+    {146, 1},
+    {147, 5},
+    {148, 5},
     {0, 4},
 };
 static const arc arcs_41_5[1] = {
-    {59, 6},
+    {82, 6},
 };
 static const arc arcs_41_6[1] = {
-    {120, 7},
+    {144, 7},
 };
 static const arc arcs_41_7[1] = {
     {0, 7},
 };
 static state states_41[8] = {
-    {1, arcs_41_0},
+    {2, arcs_41_0},
     {1, arcs_41_1},
     {1, arcs_41_2},
     {1, arcs_41_3},
-    {3, arcs_41_4},
+    {5, arcs_41_4},
     {1, arcs_41_5},
     {1, arcs_41_6},
     {1, arcs_41_7},
 };
-static const arc arcs_42_0[1] = {
-    {33, 1},
+static const arc arcs_42_0[2] = {
+    {26, 1},
+    {51, 1},
 };
 static const arc arcs_42_1[1] = {
-    {119, 2},
+    {143, 2},
 };
 static const arc arcs_42_2[1] = {
-    {59, 3},
+    {82, 3},
 };
 static const arc arcs_42_3[1] = {
-    {120, 4},
+    {144, 4},
 };
-static const arc arcs_42_4[2] = {
-    {122, 5},
+static const arc arcs_42_4[3] = {
+    {147, 5},
+    {149, 5},
     {0, 4},
 };
 static const arc arcs_42_5[1] = {
-    {59, 6},
+    {82, 6},
 };
 static const arc arcs_42_6[1] = {
-    {120, 7},
+    {144, 7},
 };
 static const arc arcs_42_7[1] = {
     {0, 7},
 };
 static state states_42[8] = {
-    {1, arcs_42_0},
+    {2, arcs_42_0},
     {1, arcs_42_1},
     {1, arcs_42_2},
     {1, arcs_42_3},
-    {2, arcs_42_4},
+    {3, arcs_42_4},
     {1, arcs_42_5},
     {1, arcs_42_6},
     {1, arcs_42_7},
 };
-static const arc arcs_43_0[1] = {
-    {21, 1},
+static const arc arcs_43_0[2] = {
+    {25, 1},
+    {27, 1},
 };
 static const arc arcs_43_1[1] = {
-    {99, 2},
+    {122, 2},
 };
-static const arc arcs_43_2[1] = {
-    {123, 3},
+static const arc arcs_43_2[2] = {
+    {150, 3},
+    {151, 3},
 };
 static const arc arcs_43_3[1] = {
-    {47, 4},
+    {70, 4},
 };
 static const arc arcs_43_4[1] = {
-    {59, 5},
+    {82, 5},
 };
 static const arc arcs_43_5[2] = {
-    {61, 6},
-    {120, 7},
+    {84, 6},
+    {144, 7},
 };
 static const arc arcs_43_6[1] = {
-    {120, 7},
+    {144, 7},
 };
-static const arc arcs_43_7[2] = {
-    {122, 8},
+static const arc arcs_43_7[3] = {
+    {147, 8},
+    {149, 8},
     {0, 7},
 };
 static const arc arcs_43_8[1] = {
-    {59, 9},
+    {82, 9},
 };
 static const arc arcs_43_9[1] = {
-    {120, 10},
+    {144, 10},
 };
 static const arc arcs_43_10[1] = {
     {0, 10},
 };
 static state states_43[11] = {
-    {1, arcs_43_0},
+    {2, arcs_43_0},
     {1, arcs_43_1},
-    {1, arcs_43_2},
+    {2, arcs_43_2},
     {1, arcs_43_3},
     {1, arcs_43_4},
     {2, arcs_43_5},
     {1, arcs_43_6},
-    {2, arcs_43_7},
+    {3, arcs_43_7},
     {1, arcs_43_8},
     {1, arcs_43_9},
     {1, arcs_43_10},
 };
-static const arc arcs_44_0[1] = {
-    {32, 1},
+static const arc arcs_44_0[2] = {
+    {47, 1},
+    {48, 1},
 };
 static const arc arcs_44_1[1] = {
-    {59, 2},
+    {82, 2},
 };
 static const arc arcs_44_2[1] = {
-    {120, 3},
+    {144, 3},
 };
-static const arc arcs_44_3[2] = {
-    {124, 4},
-    {125, 5},
+static const arc arcs_44_3[3] = {
+    {152, 4},
+    {149, 4},
+    {153, 5},
 };
 static const arc arcs_44_4[1] = {
-    {59, 6},
+    {82, 6},
 };
 static const arc arcs_44_5[1] = {
-    {59, 7},
+    {82, 7},
 };
 static const arc arcs_44_6[1] = {
-    {120, 8},
+    {144, 8},
 };
 static const arc arcs_44_7[1] = {
-    {120, 9},
+    {144, 9},
 };
 static const arc arcs_44_8[1] = {
     {0, 8},
 };
-static const arc arcs_44_9[4] = {
-    {122, 10},
-    {124, 4},
-    {125, 5},
+static const arc arcs_44_9[6] = {
+    {154, 10},
+    {147, 10},
+    {152, 4},
+    {149, 4},
+    {153, 5},
     {0, 9},
 };
 static const arc arcs_44_10[1] = {
-    {59, 11},
+    {82, 11},
 };
 static const arc arcs_44_11[1] = {
-    {120, 12},
+    {144, 12},
 };
-static const arc arcs_44_12[2] = {
-    {124, 4},
+static const arc arcs_44_12[3] = {
+    {152, 4},
+    {149, 4},
     {0, 12},
 };
 static state states_44[13] = {
-    {1, arcs_44_0},
+    {2, arcs_44_0},
     {1, arcs_44_1},
     {1, arcs_44_2},
-    {2, arcs_44_3},
+    {3, arcs_44_3},
     {1, arcs_44_4},
     {1, arcs_44_5},
     {1, arcs_44_6},
     {1, arcs_44_7},
     {1, arcs_44_8},
-    {4, arcs_44_9},
+    {6, arcs_44_9},
     {1, arcs_44_10},
     {1, arcs_44_11},
-    {2, arcs_44_12},
+    {3, arcs_44_12},
 };
-static const arc arcs_45_0[1] = {
-    {34, 1},
+static const arc arcs_45_0[2] = {
+    {50, 1},
+    {52, 1},
 };
 static const arc arcs_45_1[1] = {
-    {126, 2},
+    {155, 2},
 };
 static const arc arcs_45_2[2] = {
-    {66, 1},
-    {59, 3},
+    {89, 1},
+    {82, 3},
 };
 static const arc arcs_45_3[2] = {
-    {61, 4},
-    {120, 5},
+    {84, 4},
+    {144, 5},
 };
 static const arc arcs_45_4[1] = {
-    {120, 5},
+    {144, 5},
 };
 static const arc arcs_45_5[1] = {
     {0, 5},
 };
 static state states_45[6] = {
-    {1, arcs_45_0},
+    {2, arcs_45_0},
     {1, arcs_45_1},
     {2, arcs_45_2},
     {2, arcs_45_3},
@@ -1338,45 +1368,48 @@ static state states_45[6] = {
     {1, arcs_45_5},
 };
 static const arc arcs_46_0[1] = {
-    {60, 1},
+    {83, 1},
 };
-static const arc arcs_46_1[2] = {
-    {111, 2},
+static const arc arcs_46_1[3] = {
+    {134, 2},
+    {135, 2},
     {0, 1},
 };
 static const arc arcs_46_2[1] = {
-    {127, 3},
+    {156, 3},
 };
 static const arc arcs_46_3[1] = {
     {0, 3},
 };
 static state states_46[4] = {
     {1, arcs_46_0},
-    {2, arcs_46_1},
+    {3, arcs_46_1},
     {1, arcs_46_2},
     {1, arcs_46_3},
 };
-static const arc arcs_47_0[1] = {
-    {128, 1},
+static const arc arcs_47_0[2] = {
+    {157, 1},
+    {158, 1},
 };
 static const arc arcs_47_1[2] = {
-    {60, 2},
+    {83, 2},
     {0, 1},
 };
-static const arc arcs_47_2[2] = {
-    {111, 3},
+static const arc arcs_47_2[3] = {
+    {134, 3},
+    {135, 3},
     {0, 2},
 };
 static const arc arcs_47_3[1] = {
-    {40, 4},
+    {63, 4},
 };
 static const arc arcs_47_4[1] = {
     {0, 4},
 };
 static state states_47[5] = {
-    {1, arcs_47_0},
+    {2, arcs_47_0},
     {2, arcs_47_1},
-    {2, arcs_47_2},
+    {3, arcs_47_2},
     {1, arcs_47_3},
     {1, arcs_47_4},
 };
@@ -1385,17 +1418,17 @@ static const arc arcs_48_0[2] = {
     {4, 2},
 };
 static const arc arcs_48_1[1] = {
-    {129, 3},
+    {159, 3},
 };
 static const arc arcs_48_2[1] = {
     {0, 2},
 };
 static const arc arcs_48_3[1] = {
-    {45, 4},
+    {68, 4},
 };
 static const arc arcs_48_4[2] = {
-    {130, 2},
-    {45, 4},
+    {160, 2},
+    {68, 4},
 };
 static state states_48[5] = {
     {2, arcs_48_0},
@@ -1405,14 +1438,14 @@ static state states_48[5] = {
     {2, arcs_48_4},
 };
 static const arc arcs_49_0[1] = {
-    {60, 1},
+    {83, 1},
 };
 static const arc arcs_49_1[2] = {
-    {131, 2},
+    {161, 2},
     {0, 1},
 };
 static const arc arcs_49_2[1] = {
-    {60, 3},
+    {83, 3},
 };
 static const arc arcs_49_3[1] = {
     {0, 3},
@@ -1424,36 +1457,38 @@ static state states_49[4] = {
     {1, arcs_49_3},
 };
 static const arc arcs_50_0[2] = {
-    {132, 1},
-    {133, 2},
+    {162, 1},
+    {163, 2},
 };
 static const arc arcs_50_1[1] = {
     {0, 1},
 };
-static const arc arcs_50_2[2] = {
-    {24, 3},
+static const arc arcs_50_2[3] = {
+    {30, 3},
+    {32, 3},
     {0, 2},
 };
 static const arc arcs_50_3[1] = {
-    {133, 4},
+    {163, 4},
 };
-static const arc arcs_50_4[1] = {
-    {122, 5},
+static const arc arcs_50_4[2] = {
+    {147, 5},
+    {148, 5},
 };
 static const arc arcs_50_5[1] = {
-    {60, 1},
+    {83, 1},
 };
 static state states_50[6] = {
     {2, arcs_50_0},
     {1, arcs_50_1},
-    {2, arcs_50_2},
+    {3, arcs_50_2},
     {1, arcs_50_3},
-    {1, arcs_50_4},
+    {2, arcs_50_4},
     {1, arcs_50_5},
 };
 static const arc arcs_51_0[2] = {
-    {135, 1},
-    {133, 1},
+    {165, 1},
+    {163, 1},
 };
 static const arc arcs_51_1[1] = {
     {0, 1},
@@ -1462,133 +1497,146 @@ static state states_51[2] = {
     {2, arcs_51_0},
     {1, arcs_51_1},
 };
-static const arc arcs_52_0[1] = {
-    {26, 1},
+static const arc arcs_52_0[2] = {
+    {18, 1},
+    {36, 1},
 };
 static const arc arcs_52_1[2] = {
-    {59, 2},
-    {69, 3},
+    {82, 2},
+    {92, 3},
 };
 static const arc arcs_52_2[1] = {
-    {60, 4},
+    {83, 4},
 };
 static const arc arcs_52_3[1] = {
-    {59, 2},
+    {82, 2},
 };
 static const arc arcs_52_4[1] = {
     {0, 4},
 };
 static state states_52[5] = {
-    {1, arcs_52_0},
+    {2, arcs_52_0},
     {2, arcs_52_1},
     {1, arcs_52_2},
     {1, arcs_52_3},
     {1, arcs_52_4},
 };
-static const arc arcs_53_0[1] = {
-    {26, 1},
+static const arc arcs_53_0[2] = {
+    {18, 1},
+    {36, 1},
 };
 static const arc arcs_53_1[2] = {
-    {59, 2},
-    {69, 3},
+    {82, 2},
+    {92, 3},
 };
 static const arc arcs_53_2[1] = {
-    {134, 4},
+    {164, 4},
 };
 static const arc arcs_53_3[1] = {
-    {59, 2},
+    {82, 2},
 };
 static const arc arcs_53_4[1] = {
     {0, 4},
 };
 static state states_53[5] = {
-    {1, arcs_53_0},
+    {2, arcs_53_0},
     {2, arcs_53_1},
     {1, arcs_53_2},
     {1, arcs_53_3},
     {1, arcs_53_4},
 };
 static const arc arcs_54_0[1] = {
-    {136, 1},
+    {166, 1},
 };
-static const arc arcs_54_1[2] = {
-    {137, 0},
+static const arc arcs_54_1[3] = {
+    {167, 0},
+    {168, 0},
     {0, 1},
 };
 static state states_54[2] = {
     {1, arcs_54_0},
-    {2, arcs_54_1},
+    {3, arcs_54_1},
 };
 static const arc arcs_55_0[1] = {
-    {138, 1},
+    {169, 1},
 };
-static const arc arcs_55_1[2] = {
-    {139, 0},
+static const arc arcs_55_1[3] = {
+    {170, 0},
+    {171, 0},
     {0, 1},
 };
 static state states_55[2] = {
     {1, arcs_55_0},
-    {2, arcs_55_1},
+    {3, arcs_55_1},
 };
-static const arc arcs_56_0[2] = {
-    {28, 1},
-    {140, 2},
+static const arc arcs_56_0[3] = {
+    {37, 1},
+    {40, 1},
+    {172, 2},
 };
 static const arc arcs_56_1[1] = {
-    {138, 2},
+    {169, 2},
 };
 static const arc arcs_56_2[1] = {
     {0, 2},
 };
 static state states_56[3] = {
-    {2, arcs_56_0},
+    {3, arcs_56_0},
     {1, arcs_56_1},
     {1, arcs_56_2},
 };
 static const arc arcs_57_0[1] = {
-    {127, 1},
+    {156, 1},
 };
 static const arc arcs_57_1[2] = {
-    {141, 0},
+    {173, 0},
     {0, 1},
 };
 static state states_57[2] = {
     {1, arcs_57_0},
     {2, arcs_57_1},
 };
-static const arc arcs_58_0[10] = {
-    {142, 1},
-    {143, 1},
-    {144, 1},
-    {142, 1},
-    {145, 1},
-    {146, 1},
-    {147, 1},
-    {123, 1},
-    {148, 2},
-    {28, 3},
+static const arc arcs_58_0[14] = {
+    {174, 1},
+    {175, 1},
+    {176, 1},
+    {174, 1},
+    {177, 1},
+    {178, 1},
+    {179, 1},
+    {150, 1},
+    {180, 2},
+    {181, 1},
+    {37, 3},
+    {40, 4},
+    {182, 1},
+    {183, 1},
 };
 static const arc arcs_58_1[1] = {
     {0, 1},
 };
 static const arc arcs_58_2[2] = {
-    {28, 1},
+    {40, 1},
     {0, 2},
 };
 static const arc arcs_58_3[1] = {
-    {123, 1},
+    {181, 1},
 };
-static state states_58[4] = {
-    {10, arcs_58_0},
+static const arc arcs_58_4[1] = {
+    {150, 1},
+};
+static state states_58[5] = {
+    {14, arcs_58_0},
     {1, arcs_58_1},
     {2, arcs_58_2},
     {1, arcs_58_3},
+    {1, arcs_58_4},
 };
 static const arc arcs_59_0[1] = {
     {6, 1},
 };
 static const arc arcs_59_1[1] = {
-    {127, 2},
+    {156, 2},
 };
 static const arc arcs_59_2[1] = {
     {0, 2},
@@ -1599,10 +1647,10 @@ static state states_59[3] = {
     {1, arcs_59_2},
 };
 static const arc arcs_60_0[1] = {
-    {149, 1},
+    {184, 1},
 };
 static const arc arcs_60_1[2] = {
-    {150, 0},
+    {185, 0},
     {0, 1},
 };
 static state states_60[2] = {
@@ -1610,10 +1658,10 @@ static state states_60[2] = {
     {2, arcs_60_1},
 };
 static const arc arcs_61_0[1] = {
-    {151, 1},
+    {186, 1},
 };
 static const arc arcs_61_1[2] = {
-    {152, 0},
+    {187, 0},
     {0, 1},
 };
 static state states_61[2] = {
@@ -1621,10 +1669,10 @@ static state states_61[2] = {
     {2, arcs_61_1},
 };
 static const arc arcs_62_0[1] = {
-    {153, 1},
+    {188, 1},
 };
 static const arc arcs_62_1[2] = {
-    {154, 0},
+    {189, 0},
     {0, 1},
 };
 static state states_62[2] = {
@@ -1632,11 +1680,11 @@ static state states_62[2] = {
     {2, arcs_62_1},
 };
 static const arc arcs_63_0[1] = {
-    {155, 1},
+    {190, 1},
 };
 static const arc arcs_63_1[3] = {
-    {156, 0},
-    {157, 0},
+    {191, 0},
+    {192, 0},
     {0, 1},
 };
 static state states_63[2] = {
@@ -1644,7 +1692,7 @@ static state states_63[2] = {
     {3, arcs_63_1},
 };
 static const arc arcs_64_0[1] = {
-    {158, 1},
+    {193, 1},
 };
 static const arc arcs_64_1[3] = {
     {7, 0},
@@ -1656,13 +1704,13 @@ static state states_64[2] = {
     {3, arcs_64_1},
 };
 static const arc arcs_65_0[1] = {
-    {159, 1},
+    {194, 1},
 };
 static const arc arcs_65_1[6] = {
-    {160, 0},
+    {195, 0},
     {6, 0},
-    {68, 0},
-    {161, 0},
+    {91, 0},
+    {196, 0},
     {10, 0},
     {0, 1},
 };
@@ -1673,11 +1721,11 @@ static state states_65[2] = {
 static const arc arcs_66_0[4] = {
     {7, 1},
     {8, 1},
-    {37, 1},
-    {162, 2},
+    {59, 1},
+    {197, 2},
 };
 static const arc arcs_66_1[1] = {
-    {159, 2},
+    {194, 2},
 };
 static const arc arcs_66_2[1] = {
     {0, 2},
@@ -1688,14 +1736,14 @@ static state states_66[3] = {
     {1, arcs_66_2},
 };
 static const arc arcs_67_0[1] = {
-    {163, 1},
+    {198, 1},
 };
 static const arc arcs_67_1[2] = {
-    {64, 2},
+    {87, 2},
     {0, 1},
 };
 static const arc arcs_67_2[1] = {
-    {159, 3},
+    {194, 3},
 };
 static const arc arcs_67_3[1] = {
     {0, 3},
@@ -1707,14 +1755,14 @@ static state states_67[4] = {
     {1, arcs_67_3},
 };
 static const arc arcs_68_0[2] = {
-    {39, 1},
-    {164, 2},
+    {62, 1},
+    {199, 2},
 };
 static const arc arcs_68_1[1] = {
-    {164, 2},
+    {199, 2},
 };
 static const arc arcs_68_2[2] = {
-    {165, 2},
+    {200, 2},
     {0, 2},
 };
 static state states_68[3] = {
@@ -1722,49 +1770,52 @@ static state states_68[3] = {
     {1, arcs_68_1},
     {2, arcs_68_2},
 };
-static const arc arcs_69_0[10] = {
+static const arc arcs_69_0[13] = {
     {5, 1},
     {9, 2},
     {11, 2},
     {12, 2},
     {13, 2},
-    {14, 3},
-    {36, 4},
-    {40, 2},
-    {41, 2},
-    {42, 5},
+    {14, 2},
+    {15, 2},
+    {16, 2},
+    {17, 3},
+    {58, 4},
+    {63, 2},
+    {64, 2},
+    {65, 5},
 };
 static const arc arcs_69_1[3] = {
-    {50, 2},
-    {166, 6},
-    {84, 6},
+    {73, 2},
+    {201, 6},
+    {107, 6},
 };
 static const arc arcs_69_2[1] = {
     {0, 2},
 };
 static const arc arcs_69_3[2] = {
-    {167, 2},
-    {166, 7},
+    {202, 2},
+    {201, 7},
 };
 static const arc arcs_69_4[2] = {
-    {168, 2},
-    {169, 8},
+    {203, 2},
+    {204, 8},
 };
 static const arc arcs_69_5[2] = {
-    {42, 5},
+    {65, 5},
     {0, 5},
 };
 static const arc arcs_69_6[1] = {
-    {50, 2},
+    {73, 2},
 };
 static const arc arcs_69_7[1] = {
-    {167, 2},
+    {202, 2},
 };
 static const arc arcs_69_8[1] = {
-    {168, 2},
+    {203, 2},
 };
 static state states_69[9] = {
-    {10, arcs_69_0},
+    {13, arcs_69_0},
     {3, arcs_69_1},
     {1, arcs_69_2},
     {2, arcs_69_3},
@@ -1775,24 +1826,24 @@ static state states_69[9] = {
     {1, arcs_69_8},
 };
 static const arc arcs_70_0[2] = {
-    {119, 1},
-    {85, 1},
+    {143, 1},
+    {108, 1},
 };
 static const arc arcs_70_1[3] = {
-    {66, 2},
-    {170, 3},
+    {89, 2},
+    {205, 3},
     {0, 1},
 };
 static const arc arcs_70_2[3] = {
-    {119, 4},
-    {85, 4},
+    {143, 4},
+    {108, 4},
     {0, 2},
 };
 static const arc arcs_70_3[1] = {
     {0, 3},
 };
 static const arc arcs_70_4[2] = {
-    {66, 2},
+    {89, 2},
     {0, 4},
 };
 static state states_70[5] = {
@@ -1804,27 +1855,27 @@ static state states_70[5] = {
 };
 static const arc arcs_71_0[3] = {
     {5, 1},
-    {108, 2},
-    {14, 3},
+    {131, 2},
+    {17, 3},
 };
 static const arc arcs_71_1[2] = {
-    {50, 4},
-    {51, 5},
+    {73, 4},
+    {74, 5},
 };
 static const arc arcs_71_2[1] = {
-    {40, 4},
+    {63, 4},
 };
 static const arc arcs_71_3[1] = {
-    {171, 6},
+    {206, 6},
 };
 static const arc arcs_71_4[1] = {
     {0, 4},
 };
 static const arc arcs_71_5[1] = {
-    {50, 4},
+    {73, 4},
 };
 static const arc arcs_71_6[1] = {
-    {167, 4},
+    {202, 4},
 };
 static state states_71[7] = {
     {3, arcs_71_0},
@@ -1836,14 +1887,14 @@ static state states_71[7] = {
     {1, arcs_71_6},
 };
 static const arc arcs_72_0[1] = {
-    {172, 1},
+    {207, 1},
 };
 static const arc arcs_72_1[2] = {
-    {66, 2},
+    {89, 2},
     {0, 1},
 };
 static const arc arcs_72_2[2] = {
-    {172, 1},
+    {207, 1},
     {0, 2},
 };
 static state states_72[3] = {
@@ -1852,23 +1903,23 @@ static state states_72[3] = {
     {2, arcs_72_2},
 };
 static const arc arcs_73_0[2] = {
-    {59, 1},
-    {60, 2},
+    {82, 1},
+    {83, 2},
 };
 static const arc arcs_73_1[3] = {
-    {173, 3},
-    {60, 4},
+    {208, 3},
+    {83, 4},
     {0, 1},
 };
 static const arc arcs_73_2[2] = {
-    {59, 1},
+    {82, 1},
     {0, 2},
 };
 static const arc arcs_73_3[1] = {
     {0, 3},
 };
 static const arc arcs_73_4[2] = {
-    {173, 3},
+    {208, 3},
     {0, 4},
 };
 static state states_73[5] = {
@@ -1879,10 +1930,10 @@ static state states_73[5] = {
     {2, arcs_73_4},
 };
 static const arc arcs_74_0[1] = {
-    {59, 1},
+    {82, 1},
 };
 static const arc arcs_74_1[2] = {
-    {60, 2},
+    {83, 2},
     {0, 1},
 };
 static const arc arcs_74_2[1] = {
@@ -1894,16 +1945,16 @@ static state states_74[3] = {
     {1, arcs_74_2},
 };
 static const arc arcs_75_0[2] = {
-    {127, 1},
-    {85, 1},
+    {156, 1},
+    {108, 1},
 };
 static const arc arcs_75_1[2] = {
-    {66, 2},
+    {89, 2},
     {0, 1},
 };
 static const arc arcs_75_2[3] = {
-    {127, 1},
-    {85, 1},
+    {156, 1},
+    {108, 1},
     {0, 2},
 };
 static state states_75[3] = {
@@ -1912,14 +1963,14 @@ static state states_75[3] = {
     {3, arcs_75_2},
 };
 static const arc arcs_76_0[1] = {
-    {60, 1},
+    {83, 1},
 };
 static const arc arcs_76_1[2] = {
-    {66, 2},
+    {89, 2},
     {0, 1},
 };
 static const arc arcs_76_2[2] = {
-    {60, 1},
+    {83, 1},
     {0, 2},
 };
 static state states_76[3] = {
@@ -1928,61 +1979,61 @@ static state states_76[3] = {
     {2, arcs_76_2},
 };
 static const arc arcs_77_0[3] = {
-    {64, 1},
-    {85, 2},
-    {60, 3},
+    {87, 1},
+    {108, 2},
+    {83, 3},
 };
 static const arc arcs_77_1[1] = {
-    {127, 4},
+    {156, 4},
 };
 static const arc arcs_77_2[3] = {
-    {66, 5},
-    {170, 6},
+    {89, 5},
+    {205, 6},
     {0, 2},
 };
 static const arc arcs_77_3[4] = {
-    {66, 5},
-    {59, 7},
-    {170, 6},
+    {89, 5},
+    {82, 7},
+    {205, 6},
     {0, 3},
 };
 static const arc arcs_77_4[3] = {
-    {66, 8},
-    {170, 6},
+    {89, 8},
+    {205, 6},
     {0, 4},
 };
 static const arc arcs_77_5[3] = {
-    {85, 9},
-    {60, 9},
+    {108, 9},
+    {83, 9},
     {0, 5},
 };
 static const arc arcs_77_6[1] = {
     {0, 6},
 };
 static const arc arcs_77_7[1] = {
-    {60, 4},
+    {83, 4},
 };
 static const arc arcs_77_8[3] = {
-    {64, 10},
-    {60, 11},
+    {87, 10},
+    {83, 11},
     {0, 8},
 };
 static const arc arcs_77_9[2] = {
-    {66, 5},
+    {89, 5},
     {0, 9},
 };
 static const arc arcs_77_10[1] = {
-    {127, 12},
+    {156, 12},
 };
 static const arc arcs_77_11[1] = {
-    {59, 13},
+    {82, 13},
 };
 static const arc arcs_77_12[2] = {
-    {66, 8},
+    {89, 8},
     {0, 12},
 };
 static const arc arcs_77_13[1] = {
-    {60, 12},
+    {83, 12},
 };
 static state states_77[14] = {
     {3, arcs_77_0},
@@ -2000,34 +2051,35 @@ static state states_77[14] = {
     {2, arcs_77_12},
     {1, arcs_77_13},
 };
-static const arc arcs_78_0[1] = {
-    {17, 1},
+static const arc arcs_78_0[2] = {
+    {21, 1},
+    {33, 1},
 };
 static const arc arcs_78_1[1] = {
-    {40, 2},
+    {63, 2},
 };
 static const arc arcs_78_2[2] = {
     {5, 3},
-    {59, 4},
+    {82, 4},
 };
 static const arc arcs_78_3[2] = {
-    {50, 5},
-    {51, 6},
+    {73, 5},
+    {74, 6},
 };
 static const arc arcs_78_4[1] = {
-    {120, 7},
+    {144, 7},
 };
 static const arc arcs_78_5[1] = {
-    {59, 4},
+    {82, 4},
 };
 static const arc arcs_78_6[1] = {
-    {50, 5},
+    {73, 5},
 };
 static const arc arcs_78_7[1] = {
     {0, 7},
 };
 static state states_78[8] = {
-    {1, arcs_78_0},
+    {2, arcs_78_0},
     {1, arcs_78_1},
     {2, arcs_78_2},
     {2, arcs_78_3},
@@ -2037,14 +2089,14 @@ static state states_78[8] = {
     {1, arcs_78_7},
 };
 static const arc arcs_79_0[1] = {
-    {174, 1},
+    {209, 1},
 };
 static const arc arcs_79_1[2] = {
-    {66, 2},
+    {89, 2},
     {0, 1},
 };
 static const arc arcs_79_2[2] = {
-    {174, 1},
+    {209, 1},
     {0, 2},
 };
 static state states_79[3] = {
@@ -2054,16 +2106,16 @@ static state states_79[3] = {
 };
 static const arc arcs_80_0[3] = {
     {6, 1},
-    {64, 1},
-    {60, 2},
+    {87, 1},
+    {83, 2},
 };
 static const arc arcs_80_1[1] = {
-    {60, 3},
+    {83, 3},
 };
 static const arc arcs_80_2[4] = {
-    {131, 1},
-    {67, 1},
-    {170, 3},
+    {161, 1},
+    {90, 1},
+    {205, 3},
     {0, 2},
 };
 static const arc arcs_80_3[1] = {
@@ -2076,8 +2128,8 @@ static state states_80[4] = {
     {1, arcs_80_3},
 };
 static const arc arcs_81_0[2] = {
-    {170, 1},
-    {176, 1},
+    {205, 1},
+    {211, 1},
 };
 static const arc arcs_81_1[1] = {
     {0, 1},
@@ -2086,39 +2138,41 @@ static state states_81[2] = {
     {2, arcs_81_0},
     {1, arcs_81_1},
 };
-static const arc arcs_82_0[1] = {
-    {21, 1},
+static const arc arcs_82_0[2] = {
+    {25, 1},
+    {27, 1},
 };
 static const arc arcs_82_1[1] = {
-    {99, 2},
+    {122, 2},
 };
-static const arc arcs_82_2[1] = {
-    {123, 3},
+static const arc arcs_82_2[2] = {
+    {150, 3},
+    {151, 3},
 };
 static const arc arcs_82_3[1] = {
-    {133, 4},
+    {163, 4},
 };
 static const arc arcs_82_4[2] = {
-    {175, 5},
+    {210, 5},
     {0, 4},
 };
 static const arc arcs_82_5[1] = {
     {0, 5},
 };
 static state states_82[6] = {
-    {1, arcs_82_0},
+    {2, arcs_82_0},
     {1, arcs_82_1},
-    {1, arcs_82_2},
+    {2, arcs_82_2},
     {1, arcs_82_3},
     {2, arcs_82_4},
     {1, arcs_82_5},
 };
 static const arc arcs_83_0[2] = {
-    {38, 1},
-    {177, 2},
+    {61, 1},
+    {212, 2},
 };
 static const arc arcs_83_1[1] = {
-    {177, 2},
+    {212, 2},
 };
 static const arc arcs_83_2[1] = {
     {0, 2},
@@ -2128,27 +2182,28 @@ static state states_83[3] = {
     {1, arcs_83_1},
     {1, arcs_83_2},
 };
-static const arc arcs_84_0[1] = {
-    {24, 1},
+static const arc arcs_84_0[2] = {
+    {30, 1},
+    {32, 1},
 };
 static const arc arcs_84_1[1] = {
-    {134, 2},
+    {164, 2},
 };
 static const arc arcs_84_2[2] = {
-    {175, 3},
+    {210, 3},
     {0, 2},
 };
 static const arc arcs_84_3[1] = {
     {0, 3},
 };
 static state states_84[4] = {
-    {1, arcs_84_0},
+    {2, arcs_84_0},
     {1, arcs_84_1},
     {2, arcs_84_2},
     {1, arcs_84_3},
 };
 static const arc arcs_85_0[1] = {
-    {40, 1},
+    {63, 1},
 };
 static const arc arcs_85_1[1] = {
     {0, 1},
@@ -2157,33 +2212,35 @@ static state states_85[2] = {
     {1, arcs_85_0},
     {1, arcs_85_1},
 };
-static const arc arcs_86_0[1] = {
+static const arc arcs_86_0[2] = {
     {35, 1},
+    {54, 1},
 };
 static const arc arcs_86_1[2] = {
-    {179, 2},
+    {214, 2},
     {0, 1},
 };
 static const arc arcs_86_2[1] = {
     {0, 2},
 };
 static state states_86[3] = {
-    {1, arcs_86_0},
+    {2, arcs_86_0},
     {2, arcs_86_1},
     {1, arcs_86_2},
 };
-static const arc arcs_87_0[2] = {
-    {22, 1},
-    {81, 2},
+static const arc arcs_87_0[3] = {
+    {28, 1},
+    {41, 1},
+    {104, 2},
 };
 static const arc arcs_87_1[1] = {
-    {60, 2},
+    {83, 2},
 };
 static const arc arcs_87_2[1] = {
     {0, 2},
 };
 static state states_87[3] = {
-    {2, arcs_87_0},
+    {3, arcs_87_0},
     {1, arcs_87_1},
     {1, arcs_87_2},
 };
@@ -2192,24 +2249,24 @@ static const arc arcs_88_0[2] = {
     {4, 2},
 };
 static const arc arcs_88_1[2] = {
-    {129, 3},
-    {61, 4},
+    {159, 3},
+    {84, 4},
 };
 static const arc arcs_88_2[1] = {
     {0, 2},
 };
 static const arc arcs_88_3[1] = {
-    {45, 5},
+    {68, 5},
 };
 static const arc arcs_88_4[1] = {
     {2, 6},
 };
 static const arc arcs_88_5[2] = {
-    {130, 2},
-    {45, 5},
+    {160, 2},
+    {68, 5},
 };
 static const arc arcs_88_6[1] = {
-    {129, 3},
+    {159, 3},
 };
 static state states_88[7] = {
     {2, arcs_88_0},
@@ -2221,10 +2278,10 @@ static state states_88[7] = {
     {1, arcs_88_6},
 };
 static const arc arcs_89_0[1] = {
-    {181, 1},
+    {216, 1},
 };
 static const arc arcs_89_1[2] = {
-    {44, 2},
+    {67, 2},
     {2, 1},
 };
 static const arc arcs_89_2[1] = {
@@ -2239,17 +2296,17 @@ static const arc arcs_90_0[1] = {
     {5, 1},
 };
 static const arc arcs_90_1[2] = {
-    {50, 2},
-    {182, 3},
+    {73, 2},
+    {217, 3},
 };
 static const arc arcs_90_2[1] = {
-    {58, 4},
+    {81, 4},
 };
 static const arc arcs_90_3[1] = {
-    {50, 2},
+    {73, 2},
 };
 static const arc arcs_90_4[1] = {
-    {60, 5},
+    {83, 5},
 };
 static const arc arcs_90_5[1] = {
     {0, 5},
@@ -2264,27 +2321,27 @@ static state states_90[6] = {
 };
 static const arc arcs_91_0[3] = {
     {6, 1},
-    {64, 2},
-    {60, 3},
+    {87, 2},
+    {83, 3},
 };
 static const arc arcs_91_1[3] = {
-    {66, 4},
-    {60, 5},
+    {89, 4},
+    {83, 5},
     {0, 1},
 };
 static const arc arcs_91_2[1] = {
-    {60, 6},
+    {83, 6},
 };
 static const arc arcs_91_3[2] = {
-    {66, 7},
+    {89, 7},
     {0, 3},
 };
 static const arc arcs_91_4[2] = {
-    {64, 2},
-    {60, 5},
+    {87, 2},
+    {83, 5},
 };
 static const arc arcs_91_5[2] = {
-    {66, 4},
+    {89, 4},
     {0, 5},
 };
 static const arc arcs_91_6[1] = {
@@ -2292,21 +2349,21 @@ static const arc arcs_91_6[1] = {
 };
 static const arc arcs_91_7[4] = {
     {6, 8},
-    {64, 2},
-    {60, 3},
+    {87, 2},
+    {83, 3},
     {0, 7},
 };
 static const arc arcs_91_8[3] = {
-    {66, 9},
-    {60, 10},
+    {89, 9},
+    {83, 10},
     {0, 8},
 };
 static const arc arcs_91_9[2] = {
-    {64, 2},
-    {60, 10},
+    {87, 2},
+    {83, 10},
 };
 static const arc arcs_91_10[2] = {
-    {66, 9},
+    {89, 9},
     {0, 10},
 };
 static state states_91[11] = {
@@ -2324,191 +2381,191 @@ static state states_91[11] = {
 };
 static const dfa dfas[92] = {
     {256, "single_input", 3, states_0,
-     "\344\377\377\377\377\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\344\377\377\377\377\377\377\377\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {257, "file_input", 2, states_1,
-     "\344\377\377\377\377\027\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\344\377\377\377\377\377\377\377\013\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {258, "eval_input", 3, states_2,
-     "\240\173\000\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\007\000\060\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {259, "decorator", 7, states_3,
-     "\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {260, "decorators", 2, states_4,
-     "\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {261, "decorated", 3, states_5,
-     "\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {262, "async_funcdef", 3, states_6,
-     "\000\000\000\000\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {263, "funcdef", 9, states_7,
-     "\000\000\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {264, "parameters", 4, states_8,
-     "\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {265, "typedargslist", 42, states_9,
-     "\100\000\000\000\000\001\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\100\000\000\000\000\000\000\200\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {266, "tfpdef", 4, states_10,
-     "\000\000\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {267, "varargslist", 34, states_11,
-     "\100\000\000\000\000\001\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\100\000\000\000\000\000\000\200\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {268, "vfpdef", 2, states_12,
-     "\000\000\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {269, "stmt", 2, states_13,
-     "\340\377\377\377\377\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\377\377\377\377\377\377\377\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {270, "simple_stmt", 4, states_14,
-     "\340\373\325\376\270\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\137\261\374\177\342\337\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {271, "small_stmt", 2, states_15,
-     "\340\373\325\376\270\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\137\261\374\177\342\337\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {272, "expr_stmt", 6, states_16,
-     "\340\173\000\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\007\000\060\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {273, "annassign", 5, states_17,
-     "\000\000\000\000\000\000\000\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\000\000\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {274, "testlist_star_expr", 3, states_18,
-     "\340\173\000\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\007\000\060\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {275, "augassign", 2, states_19,
-     "\000\000\000\000\000\000\000\000\000\000\300\377\007\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\000\000\000\000\000\000\340\377\003\000\000\000\000\000\000\000\000\000\000\000\000"},
     {276, "del_stmt", 3, states_20,
-     "\000\000\020\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\001\000\000\002\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {277, "pass_stmt", 2, states_21,
-     "\000\000\000\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\014\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {278, "flow_stmt", 2, states_22,
-     "\000\000\005\300\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\120\000\014\160\140\002\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {279, "break_stmt", 2, states_23,
-     "\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\020\000\000\020\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {280, "continue_stmt", 2, states_24,
-     "\000\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\100\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {281, "return_stmt", 3, states_25,
-     "\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\100\000\002\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {282, "yield_stmt", 2, states_26,
-     "\000\000\000\000\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\010\000\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {283, "raise_stmt", 5, states_27,
-     "\000\000\000\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\040\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {284, "import_stmt", 2, states_28,
-     "\000\000\100\002\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\220\000\002\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {285, "import_name", 3, states_29,
-     "\000\000\000\002\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\200\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {286, "import_from", 8, states_30,
-     "\000\000\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\020\000\002\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {287, "import_as_name", 4, states_31,
-     "\000\000\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {288, "dotted_as_name", 4, states_32,
-     "\000\000\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {289, "import_as_names", 3, states_33,
-     "\000\000\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {290, "dotted_as_names", 2, states_34,
-     "\000\000\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {291, "dotted_name", 2, states_35,
-     "\000\000\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {292, "global_stmt", 3, states_36,
-     "\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\040\000\000\000\020\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {293, "nonlocal_stmt", 3, states_37,
-     "\000\000\000\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\300\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {294, "assert_stmt", 5, states_38,
-     "\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\010\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {295, "compound_stmt", 2, states_39,
-     "\000\004\052\001\107\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\004\240\116\003\200\035\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {296, "async_stmt", 3, states_40,
-     "\000\000\000\000\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {297, "if_stmt", 8, states_41,
-     "\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\100\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {298, "while_stmt", 8, states_42,
-     "\000\000\000\000\002\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\004\000\000\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {299, "for_stmt", 11, states_43,
-     "\000\000\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\012\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {300, "try_stmt", 13, states_44,
-     "\000\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\200\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {301, "with_stmt", 6, states_45,
-     "\000\000\000\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\024\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {302, "with_item", 4, states_46,
-     "\240\173\000\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\007\000\060\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {303, "except_clause", 5, states_47,
-     "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\001\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\140\000\000\000\000\000\000\000\000"},
     {304, "suite", 5, states_48,
-     "\344\373\325\376\270\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\344\373\137\261\374\177\342\337\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {305, "namedexpr_test", 4, states_49,
-     "\240\173\000\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\007\000\060\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {306, "test", 6, states_50,
-     "\240\173\000\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\007\000\060\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {307, "test_nocond", 2, states_51,
-     "\240\173\000\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\007\000\060\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {308, "lambdef", 5, states_52,
-     "\000\000\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\004\000\020\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {309, "lambdef_nocond", 5, states_53,
-     "\000\000\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\004\000\020\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {310, "or_test", 2, states_54,
-     "\240\173\000\020\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\040\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {311, "and_test", 2, states_55,
-     "\240\173\000\020\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\040\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {312, "not_test", 3, states_56,
-     "\240\173\000\020\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\040\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {313, "comparison", 2, states_57,
-     "\240\173\000\000\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
-    {314, "comp_op", 4, states_58,
-     "\000\000\000\020\000\000\000\000\000\000\000\000\000\000\000\010\000\300\037\000\000\000\000"},
+     "\240\373\003\000\000\000\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+    {314, "comp_op", 5, states_58,
+     "\000\000\000\000\040\001\000\000\000\000\000\000\000\000\000\000\000\000\100\000\000\300\377\000\000\000\000\000"},
     {315, "star_expr", 3, states_59,
-     "\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {316, "expr", 2, states_60,
-     "\240\173\000\000\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\000\000\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {317, "xor_expr", 2, states_61,
-     "\240\173\000\000\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\000\000\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {318, "and_expr", 2, states_62,
-     "\240\173\000\000\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\000\000\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {319, "shift_expr", 2, states_63,
-     "\240\173\000\000\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\000\000\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {320, "arith_expr", 2, states_64,
-     "\240\173\000\000\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\000\000\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {321, "term", 2, states_65,
-     "\240\173\000\000\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\000\000\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {322, "factor", 3, states_66,
-     "\240\173\000\000\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\003\000\000\000\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {323, "power", 4, states_67,
-     "\040\172\000\000\220\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\040\372\003\000\000\000\000\304\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {324, "atom_expr", 3, states_68,
-     "\040\172\000\000\220\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\040\372\003\000\000\000\000\304\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {325, "atom", 9, states_69,
-     "\040\172\000\000\020\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\040\372\003\000\000\000\000\204\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {326, "testlist_comp", 5, states_70,
-     "\340\173\000\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\007\000\060\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {327, "trailer", 7, states_71,
-     "\040\100\000\000\000\000\000\000\000\000\000\000\000\020\000\000\000\000\000\000\000\000\000"},
+     "\040\000\002\000\000\000\000\000\000\000\000\000\000\000\000\000\010\000\000\000\000\000\000\000\000\000\000\000"},
     {328, "subscriptlist", 3, states_72,
-     "\240\173\000\024\260\007\000\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\007\000\060\001\000\314\003\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {329, "subscript", 5, states_73,
-     "\240\173\000\024\260\007\000\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\007\000\060\001\000\314\003\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {330, "sliceop", 3, states_74,
-     "\000\000\000\000\000\000\000\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\000\000\000\004\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {331, "exprlist", 3, states_75,
-     "\340\173\000\000\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\003\000\000\000\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {332, "testlist", 3, states_76,
-     "\240\173\000\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\240\373\007\000\060\001\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {333, "dictorsetmaker", 14, states_77,
-     "\340\173\000\024\260\007\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\007\000\060\001\000\314\003\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {334, "classdef", 8, states_78,
-     "\000\000\002\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\040\000\002\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {335, "arglist", 3, states_79,
-     "\340\173\000\024\260\007\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\007\000\060\001\000\314\003\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {336, "argument", 4, states_80,
-     "\340\173\000\024\260\007\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\007\000\060\001\000\314\003\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {337, "comp_iter", 2, states_81,
-     "\000\000\040\001\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\112\001\000\000\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {338, "sync_comp_for", 6, states_82,
-     "\000\000\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\012\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {339, "comp_for", 3, states_83,
-     "\000\000\040\000\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\012\000\000\000\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {340, "comp_if", 4, states_84,
-     "\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\100\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {341, "encoding_decl", 2, states_85,
-     "\000\000\000\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\000\000\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {342, "yield_expr", 3, states_86,
-     "\000\000\000\000\010\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\000\000\000\000\010\000\100\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {343, "yield_arg", 3, states_87,
-     "\340\173\100\024\260\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\007\020\060\003\000\314\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {344, "func_body_suite", 7, states_88,
-     "\344\373\325\376\270\007\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\344\373\137\261\374\177\342\337\003\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {345, "func_type_input", 3, states_89,
-     "\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {346, "func_type", 6, states_90,
-     "\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\040\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
     {347, "typelist", 11, states_91,
-     "\340\173\000\024\260\007\000\000\001\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
+     "\340\373\007\000\060\001\000\314\003\000\200\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000\000"},
 };
-static const label labels[183] = {
+static const label labels[218] = {
     {0, "EMPTY"},
     {256, 0},
     {4, 0},
@@ -2521,32 +2578,55 @@ static const label labels[183] = {
     {52, 0},
     {49, 0},
     {1, "False"},
+    {1, "Fałsz"},
+    {1, "Nic"},
     {1, "None"},
+    {1, "Prawda"},
     {1, "True"},
     {9, 0},
+    {1, "anonim"},
     {1, "assert"},
     {1, "break"},
     {1, "class"},
     {1, "continue"},
     {1, "def"},
     {1, "del"},
+    {1, "dla"},
+    {1, "dopóki"},
     {1, "for"},
     {1, "from"},
     {1, "global"},
     {1, "if"},
     {1, "import"},
+    {1, "jeżeli"},
+    {1, "klasa"},
+    {1, "kontynuuj"},
+    {1, "krzycz"},
     {1, "lambda"},
+    {1, "nie"},
+    {1, "nielokalny"},
     {1, "nonlocal"},
     {1, "not"},
+    {1, "ode"},
+    {1, "odpocznij"},
     {1, "pass"},
+    {1, "przerwij"},
     {1, "raise"},
     {1, "return"},
+    {1, "spróbuj"},
     {1, "try"},
+    {1, "usuń"},
+    {1, "weźże"},
     {1, "while"},
     {1, "with"},
+    {1, "wznieś"},
     {1, "yield"},
+    {1, "zapewnij"},
+    {1, "załaduj"},
+    {1, "zwróć"},
     {25, 0},
     {31, 0},
+    {1, "światowy"},
     {56, 0},
     {55, 0},
     {1, 0},
@@ -2621,6 +2701,7 @@ static const label labels[183] = {
     {289, 0},
     {287, 0},
     {1, "as"},
+    {1, "jako"},
     {288, 0},
     {296, 0},
     {299, 0},
@@ -2630,14 +2711,20 @@ static const label labels[183] = {
     {301, 0},
     {305, 0},
     {304, 0},
+    {1, "albo"},
     {1, "elif"},
     {1, "else"},
+    {1, "inaczej"},
+    {1, "ostatecznie"},
     {1, "in"},
+    {1, "spośród"},
     {1, "finally"},
     {303, 0},
+    {1, "TODO_jak_to_nazwać"},
     {302, 0},
     {316, 0},
     {1, "except"},
+    {1, "złap"},
     {5, 0},
     {6, 0},
     {53, 0},
@@ -2646,9 +2733,11 @@ static const label labels[183] = {
     {307, 0},
     {309, 0},
     {311, 0},
+    {1, "lub"},
     {1, "or"},
     {312, 0},
     {1, "and"},
+    {1, "oraz"},
     {313, 0},
     {314, 0},
     {28, 0},
@@ -2658,6 +2747,9 @@ static const label labels[183] = {
     {21, 0},
     {30, 0},
     {1, "is"},
+    {1, "jest"},
+    {1, "poza"},
+    {1, "wewnątrz"},
     {317, 0},
     {18, 0},
     {318, 0},
@@ -2696,6 +2788,6 @@ static const label labels[183] = {
 grammar _PyParser_Grammar = {
     92,
     dfas,
-    {183, labels},
+    {218, labels},
     256
 };
