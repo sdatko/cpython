@@ -118,7 +118,7 @@ while_stmt: ('while' | 'dopóki') namedexpr_test ':' suite [('else' | 'ostateczn
 for_stmt: ('for' | 'dla') exprlist ('in' | 'spośród') testlist ':' [TYPE_COMMENT] suite [('else' | 'ostatecznie') ':' suite]
 try_stmt: (('try' | 'spróbuj') ':' suite
            ((except_clause ':' suite)+
-            [('else' | 'TODO_jak_to_nazwać') ':' suite]
+            [('else' | 'tudzież') ':' suite]
             [('finally' | 'ostatecznie') ':' suite] |
            ('finally' | 'ostatecznie') ':' suite))
 with_stmt: ('with' | 'weźże') with_item (',' with_item)*  ':' [TYPE_COMMENT] suite
